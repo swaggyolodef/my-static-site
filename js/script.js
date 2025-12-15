@@ -27,9 +27,7 @@ block: 'start'
 });
 // Добавляем текущий год в футер
 const currentYear = new Date().getFullYear();
-Часть 3: Настройка GitHub Pages
-3.1 Первый коммит и пуш
-3.2 Настройка GitHub Pages через веб-интерфейс
+
 const yearElement = document.querySelector('footer p');
 if (yearElement) {
 yearElement.innerHTML = yearElement.innerHTML.replace('2024',
