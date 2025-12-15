@@ -7,11 +7,11 @@ markdown: kramdown
 permalink: pretty
 # Плагины (если будем использовать Jekyll)
 plugins:
-- jekyll-sitemap
-- jekyll-seo-tag
+    - jekyll-sitemap
+    - jekyll-seo-tag
 # SEO настройки
 google_analytics: false
 # Автор
 author:
-name: "Синергия"
-email: "swaggyolodef@gmail.com"
+    name: "Синергия"
+    email: "swaggyolodef@gmail.com"
